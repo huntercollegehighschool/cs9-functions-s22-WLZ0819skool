@@ -12,4 +12,6 @@ Define a function possibletriangle that takes 3 arguments (side1, side2, side3).
 '''
 
 def possibletriangle(side1, side2, side3): #do not change this line
-  pass #delete the word pass when you start writing your code
+  mylist = [side1,side2,side3]
+  mylist.sort()
+  return mylist[0] + mylist[1] > mylist[2]
