@@ -8,7 +8,7 @@ However, there are (at least) 7 errors in the code. Fix them so that it runs pro
 '''
 
 def distinct(a,b,c):
-  if a != b and b!= c:
+  if a != b and b!= c and a != c:
     return True
   else:
     return False
